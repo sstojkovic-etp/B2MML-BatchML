@@ -23218,7 +23218,10 @@
 					"type": "array"
 				},
 				"OperationalLocationClassChild": {
-					"$ref": "#/$defs/OperationalLocationClassType"
+					"items": {
+						"$ref": "#/$defs/OperationalLocationClassType"
+					},
+					"type": "array"
 				},
 				"OperationalLocationClassProperty": {
 					"items": {
@@ -23370,7 +23373,10 @@
 					"$ref": "#/$defs/IdentifierType"
 				},
 				"OperationalClassID": {
-					"$ref": "#/$defs/IdentifierType"
+					"items": {
+						"$ref": "#/$defs/IdentifierType"
+					},
+					"type": "array"
 				},
 				"OperationalLocationChild": {
 					"items": {

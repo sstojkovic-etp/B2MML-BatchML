@@ -154,7 +154,7 @@ may be made up of other operational locations.
       <xsd:element name = "SpatialDefinition"           type = "SpatialDefinitionType"
                                                         minOccurs = "0"/>
       <xsd:element name = "OperationalClassID"          type = "IdentifierType"
-                                                        minOccurs = "0"/>
+                                                        minOccurs = "0" maxOccurs = "unbounded"/>
       <xsd:element name = "OperationalLocationChild"    type = "OperationalLocationType"
                                                         minOccurs = "0" maxOccurs = "unbounded"/>
       <xsd:element name = "OperationalLocationProperty" type = "OperationalLocationPropertyType"
@@ -181,7 +181,7 @@ may be made up of other operational locations.
                                                         minOccurs = "0"/>
       <xsd:element name = "OperationalLocationClassChild"
                                                         type = "OperationalLocationClassType"
-                                                        minOccurs = "0"/>
+                                                        minOccurs = "0" maxOccurs = "unbounded"/>
       <xsd:element name = "OperationalLocationClassBaseID"
                                                         type = "IdentifierType"
                                                         minOccurs = "0" maxOccurs = "unbounded"/>
